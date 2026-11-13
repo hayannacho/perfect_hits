@@ -2,7 +2,7 @@
 
 **Find BLAST nucleotide alignments with 100% identity spanning the full query length.**
 
-The same script is also currently published in [find_homologs](https://github.com/hayannacho/find_homologs).
+For protein-to-genome candidate searches using `tblastn`, see the separate [find_homologs](https://github.com/hayannacho/find_homologs) coursework repository.
 
 ## What the script does
 
@@ -75,4 +75,4 @@ The existing commit `590e6a2` records the script addition under `hayannacho`. Th
 
 ## Verification
 
-On 2026-11-13, Bash syntax checking and the synthetic example above passed in a Linux container with BLAST+ 2.12.0+. Both repositories contained the same script, so this execution verifies their shared implementation. This does not validate arbitrary biological inputs. Only this README was added; the coursework script was not changed.
+On 2026-11-13, Bash syntax checking and the synthetic example above passed in a Linux container with BLAST+ 2.12.0+. This execution verifies the perfect-match script in this repository. This does not validate arbitrary biological inputs. Only this README was added; the coursework script was not changed.
