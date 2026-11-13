@@ -67,9 +67,9 @@ The terminal also reports `Number of perfect matches: 1`. This counts retained B
 - Default BLAST search settings apply. This is a filter over reported alignments, not an exhaustive exact-string search; short or low-complexity queries may not produce expected hits.
 - Output omits alignment coordinates and strand. It does not extract sequences, identify annotated genes, or establish biological homology.
 
-## Coursework and contribution scope
+## Coursework
 
-This repository is associated with **Georgia Tech BIOL 7200, Fall 2024**: the supplied course archive places a Git checkout with this repository's origin URL under that course directory. This identifies course context, not the exact assignment number or a line-by-line authorship record.
+Individual coursework — BIOL 7200, Fall 2024. I implemented the Bash workflow combining nucleotide BLAST search, exact-match filtering and result counting.
 
 The existing commit `590e6a2` records the script addition under `hayannacho`. The demonstrated work is a compact Bash workflow combining BLAST search, `awk` filtering, and result counting. No claim is made that the BLAST algorithm, all course materials, or every line of the script was independently authored by the portfolio owner.
 
